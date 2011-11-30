@@ -36,7 +36,8 @@ In this directory you can create the differents php files with the HTML content 
 
 Controller file:
 The root directory to include your view file is in /aplications/controllers/
+In this directory you can crate the diferents php files whit the structure for each of the views of your project, you can guide in the example to do your controller file.
 
- the name of the last file is the name of the URL section of your project. The view file 
-
-
+Important:
+The name of the controller file is the name of the URL section of your project. 
+This template provides a home section as an example whit the home view file and home controller file. You can guide in them to create the different sections of your project.
