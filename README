@@ -1,0 +1,42 @@
+A codeigniter template that incorporates the next frameworks:
+
+Ofcourse the PHP framework "Codeigniter" (v2.1.0)
+http://codeigniter.com/
+
+"html5boilerplate" (v2.0)
+http://html5boilerplate.com/
+
+and "960 grid sistem" 
+http://960.gs/
+
+Follow the commits to learn how to integrate html5 boilerplate and 960gs with the codeigniter framework or just clone the repository and enjoy the template :).
+
+This is a template view that you only have to do is create a new controllers and views that will change in the main content of html5boilerplate leaving the fixed header and footer that you have previously chosen.
+
+--The things that you need to know to begin using this template--
+
+Base URL:
+The root directory to change the base url is in /aplications/config/config.php
+this project has "http://localhost/codeigniter--html5boilerplate--960grid-/" in the base url parameter. Change it whith the root name of your proyect.
+
+Fixed header:
+The root directory to include your fixed header is in /aplications/views/includes/header.php
+This file is ready to write your HTML code for the header of your project.
+
+Fixed footer:
+The root directory to include your fixed header is in /aplications/views/includes/footer.php
+Also, This file is ready to write your HTML code for the footer of your project.
+
+HTML5boilerplate main content:
+To create the main content of the different interfaces of your project its very important that you create a view file and controller file.
+
+View file:
+The root directory to include your view file is in /aplications/views/
+In this directory you can create the differents php files with the HTML content of each of the sections of your project.
+
+Controller file:
+The root directory to include your view file is in /aplications/controllers/
+
+ the name of the last file is the name of the URL section of your project. The view file 
+
+
