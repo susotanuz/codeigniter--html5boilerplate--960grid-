@@ -1,62 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-<title>404 Page Not Found</title>
-<style type="text/css">
-
-::selection{ background-color: #E13300; color: white; }
-::moz-selection{ background-color: #E13300; color: white; }
-::webkit-selection{ background-color: #E13300; color: white; }
-
-body {
-	background-color: #fff;
-	margin: 40px;
-	font: 13px/20px normal Helvetica, Arial, sans-serif;
-	color: #4F5155;
-}
-
-a {
-	color: #003399;
-	background-color: transparent;
-	font-weight: normal;
-}
-
-h1 {
-	color: #444;
-	background-color: transparent;
-	border-bottom: 1px solid #D0D0D0;
-	font-size: 19px;
-	font-weight: normal;
-	margin: 0 0 14px 0;
-	padding: 14px 15px 10px 15px;
-}
-
-code {
-	font-family: Consolas, Monaco, Courier New, Courier, monospace;
-	font-size: 12px;
-	background-color: #f9f9f9;
-	border: 1px solid #D0D0D0;
-	color: #002166;
-	display: block;
-	margin: 14px 0 14px 0;
-	padding: 12px 10px 12px 10px;
-}
-
-#container {
-	margin: 10px;
-	border: 1px solid #D0D0D0;
-	-webkit-box-shadow: 0 0 8px #D0D0D0;
-}
-
-p {
-	margin: 12px 15px 12px 15px;
-}
-</style>
+  <meta charset="utf-8">
+  <title>Page Not Found :(</title> 
+  <style>
+	  body { text-align: center;}
+	  h1 { font-size: 50px; text-align: center }
+	  span[frown] { transform: rotate(90deg); display:inline-block; color: #bbb; }
+	  body { font: 20px Constantia, 'Hoefler Text',  "Adobe Caslon Pro", Baskerville, Georgia, Times, serif; color: #999; text-shadow: 2px 2px 2px rgba(200, 200, 200, 0.5); }
+	  ::-moz-selection{ background:#FF5E99; color:#fff; }
+	  ::selection { background:#FF5E99; color:#fff; } 
+	  article {display:block; text-align: left; width: 500px; margin: 0 auto; }
+	  
+	  a { color: rgb(36, 109, 56); text-decoration:none; }
+	  a:hover { color: rgb(96, 73, 141) ; text-shadow: 2px 2px 2px rgba(36, 109, 56, 0.5); }
+  </style>
 </head>
 <body>
-	<div id="container">
-		<h1><?php echo $heading; ?></h1>
-		<?php echo $message; ?>
-	</div>
+     <article>
+	  <h1>Not found <span frown>:(</span></h1>
+	   <div>
+	       <p>Sorry, but the page you were trying to view does not exist.</p>
+	       <p>It looks like this was the result of either:</p>
+	       <ul>
+		   <li>a mistyped address</li>
+		   <li>an out-of-date link</li>
+	       </ul>
+	   </div>
+	    
+	    <script>
+	    var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),
+		GOOG_FIXURL_SITE = location.host;
+	    </script>
+	    <script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
+     </article>
 </body>
 </html>
