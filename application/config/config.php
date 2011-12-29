@@ -14,8 +14,8 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/codeigniter--html5boilerplate--960grid-/';
-
+if ($_SERVER['HTTP_HOST'] === 'localhost') $config['base_url']	= 'http://localhost/codeigniter--html5boilerplate--960grid-/';
+else $config['base_url']	= 'http://evening-beach-7208.herokuapp.com/';
 /*
 |--------------------------------------------------------------------------
 | Index File
